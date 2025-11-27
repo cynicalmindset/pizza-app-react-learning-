@@ -132,7 +132,10 @@ function Footer() {
 
   return (
     <footer className="footer">
-      {new Date().toLocaleDateString()} We're currently open
+      <p className="order">
+        {new Date().toLocaleDateString()} We're currently open
+      </p>
+      <button className="btn">Order</button>
     </footer>
   );
 }
